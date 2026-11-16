@@ -1,3 +1,11 @@
+CAT workspace: VLP16 is retired by the 2026-11-12 decision Q2. This checkout
+preserves upstream tag 2.5.1 (`0f2a3bb1dde4fa91cbafad8a3f9f89b66c2a1350`)
+and its licenses/history for reference. `COLCON_IGNORE` removes the dedicated
+driver from normal workspace discovery/build/install. Current CAT launch and
+sensor selection do not use it. Recorded data and calibration history remain.
+
+The following is the original upstream documentation, not the current CAT setup.
+
 [![](https://github.com/ros-drivers/velodyne/workflows/Basic%20Build%20Workflow/badge.svg?branch=ros2)](https://github.com/ros-drivers/velodyne/actions)
 
 Overview
